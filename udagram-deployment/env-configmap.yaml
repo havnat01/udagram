@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagram-bucket3
+  AWS_PROFILE: default
+  AWS_REGION: us-east-2
+  JWT_SECRET: minhvn4
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: minhvn4-project3.c7gaiu8pk2vw.us-east-2.rds.amazonaws.com
+  POSTGRES_USERNAME: minhvn4
+  POSTGRES_PASSWORD: Minh_1992
+  URL: http://abb493c5462254faa9e3c6787703b98b-550012329.us-east-2.elb.amazonaws.com
+metadata:
+  name: env-config
